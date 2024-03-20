@@ -1,0 +1,166 @@
+/*
+/// -------------------------------------------------------------------------------------------------------
+/// :: Brinquedo e Mania - Developed by Agência Star | 10/01/2022 - 18:30.
+/// :: WARNING: This computer program is protected by copyright law and international treaties.
+/// :: Unauthorized duplication or distribution of this program, or any portion of it, may result
+/// :: in severe civil or criminal penalties, and will be prosecuted to the maximum extent possible
+/// :: under the law.
+/// ::
+/// :: v.1.0 - 10/01/2022 - Implementation.
+/// -------------------------------------------------------------------------------------------------------
+*/
+
+.canvasWrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.images {
+    display: none;
+}
+
+.load {
+    width: 0;
+    height: 8px;
+    background: #294973;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+
+.header {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    left: 0;
+    z-index: 20;
+    padding: 50px 5%;
+}
+
+.header p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.captions {
+    position: absolute;
+    bottom: 15%;
+    left: 5%;
+    z-index: 20;
+    color: #F8F9F9;
+    width: 55%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.captions .count {
+    font-size: 150px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    margin: 0;
+    float: left;
+    margin-right: 35px;
+    line-height: 1;
+    text-shadow: 1px 1px 3px #0D0D0D;
+}
+
+.captions .title {
+    font-size: 50px;
+    font-family: 'Montserrat-Bold', sans-serif;
+    letter-spacing: 5px;
+    line-height: 1;
+    text-shadow: 1px 1px 3px #0D0D0D;
+}
+
+.captions .loc {
+    color: #0D0D0D;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.captions .buttonWrap {
+    padding-top: 29px;
+    overflow: hidden;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.captions .titleWrap {
+    margin-top: 14px;
+    overflow: hidden;
+}
+
+.captions .locWrap {
+    overflow: hidden;
+}
+
+.caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.button {
+    background: #294973;
+    color: #F8F9F9;
+    display: inline-block;
+    padding: 6px 29px;
+    text-decoration: none;
+}
+
+.button:hover, .button:focus {
+    text-decoration: none;
+    color: #0D0D0D;
+}
+
+.read {
+    position: absolute;
+    right: 5%;
+    bottom: 7%;
+    color: #F8F9F9;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 30;
+}
+
+.read:before {
+    content: '';
+    right: -25px;
+    position: absolute;
+    left: -25px;
+    bottom: -10px;
+    height: 1px;
+    background: #F8F9F9;
+    transition: all 0.4s ease-in-out;
+}
+
+.read:hover, .read:focus {
+    color: #F8F9F9;
+    text-decoration: none;
+}
+
+.read:hover:before, .read:focus:before {
+    left: -40px;
+    right: -40px;
+}
+
+@media(max-width:768px) {
+    .header {
+        top: 280px;
+    }
+
+    .header img {
+        width: 90% !important;
+    }
+
+    .captions {
+        bottom: -15% !important;
+        left: 5%;
+        width: 100%;
+    }
+    
+    .captions .count {
+        font-size: 70px;
+    }
+}

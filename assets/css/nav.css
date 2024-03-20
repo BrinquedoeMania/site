@@ -1,0 +1,100 @@
+/*
+/// -------------------------------------------------------------------------------------------------------
+/// :: Brinquedo e Mania - Developed by Agência Star | 10/01/2022 - 18:30.
+/// :: WARNING: This computer program is protected by copyright law and international treaties.
+/// :: Unauthorized duplication or distribution of this program, or any portion of it, may result
+/// :: in severe civil or criminal penalties, and will be prosecuted to the maximum extent possible
+/// :: under the law.
+/// ::
+/// :: v.1.0 - 10/01/2022 - Implementation.
+/// -------------------------------------------------------------------------------------------------------
+*/
+
+.btn-primary {
+    color: #F8F9F9 !important;
+    background-color: #0D0D0D !important;
+    border-color: #0D0D0D !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    font-family: 'Montserrat-Medium', sans-serif;
+}
+
+.btn-primary:hover {
+    color: #0D0D0D !important;
+    background-color: #F8F9F9 !important;
+    border-color: #F8F9F9 !important;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-secondary {
+    background-color: #294973;
+    border-color: #294973;
+    color: #F8F9F9;
+    font-family: 'Montserrat-Medium', sans-serif;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+.btn-secondary:hover {
+    color: #F8F9F9;
+    background-color: #0D0D0D;
+    border-color: #0D0D0D;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: #0D0D0D;
+}
+
+.nav-bg {
+    background-color: #F8F9F9;
+}
+
+.nav-item .nav-link {
+    color: #294973;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.nav-item .nav-link:hover {
+    background-color: #0D0D0D;
+    color: #F8F9F9;
+    font-weight: bold;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #F8F9F9;
+    background-color: #0D0D0D;
+}
+
+.nav-link-footer {
+    color: #F8F9F9;
+    text-decoration: none;
+}
+
+.nav-link-footer:hover {
+    color: #0D0D0D;
+    font-weight: bold;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}

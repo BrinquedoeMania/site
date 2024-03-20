@@ -1,0 +1,36 @@
+/*
+/// -------------------------------------------------------------------------------------------------------
+/// :: Brinquedo e Mania - Developed by Agência Star | 10/01/2022 - 18:30.
+/// :: WARNING: This computer program is protected by copyright law and international treaties.
+/// :: Unauthorized duplication or distribution of this program, or any portion of it, may result
+/// :: in severe civil or criminal penalties, and will be prosecuted to the maximum extent possible
+/// :: under the law.
+/// ::
+/// :: v.1.0 - 10/01/2022 - Implementation.
+/// -------------------------------------------------------------------------------------------------------
+*/
+
+.contInterno {
+    padding: 3rem;
+}
+
+.contInterno h1 {
+    color: #294973;
+    font-family: 'Montserrat-Bold', sans-serif;
+    margin-bottom: 3rem;
+}
+
+.contInterno h3 {
+    color: #294973;
+    font-family: 'Montserrat-Bold', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contInterno span {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.imgDireita {
+    float: right;
+}

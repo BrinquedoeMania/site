@@ -1,0 +1,56 @@
+/*
+/// -------------------------------------------------------------------------------------------------------
+/// :: Brinquedo e Mania - Developed by Agência Star | 10/01/2022 - 18:30.
+/// :: WARNING: This computer program is protected by copyright law and international treaties.
+/// :: Unauthorized duplication or distribution of this program, or any portion of it, may result
+/// :: in severe civil or criminal penalties, and will be prosecuted to the maximum extent possible
+/// :: under the law.
+/// ::
+/// :: v.1.0 - 10/01/2022 - Implementation.
+/// -------------------------------------------------------------------------------------------------------
+*/
+
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url(../fonts/Montserrat-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Bold';
+    src: url(../fonts/Montserrat-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraBold';
+    src: url(../fonts/Montserrat-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-ExtraLight';
+    src: url(../fonts/Montserrat-ExtraLight.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Light';
+    src: url(../fonts/Montserrat-Light.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Medium';
+    src: url(../fonts/Montserrat-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-SemiBold';
+    src: url(../fonts/Montserrat-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-Thin';
+    src: url(../fonts/Montserrat-Thin.ttf) format('truetype');
+}

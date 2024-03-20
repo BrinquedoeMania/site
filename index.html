@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Pista de Patinação - Cinema 8D - Brinquedoteca | Ice Zone</title>
+  <meta name="author" content="Agência Star" />
+  <meta name="keywords" content="Alugar pista de patinação, Alugar pista de gelo, Aluguel de pista de patinação, Aluguel de pista de gelo, Fornecedor de pista de patinação no gelo, Locação de pista de patinação no gelo, Cinema 8D, Cinema Móvel, Evento de Férias, Evento Corporativo, Diversão no Gelo" />
+  <meta name="description" content="Conheça nossas pistas de gelo sintético, gelo natural, Cinema 8D e Brinquedoteca" />
+  
+  <meta property="og:title" content="Pista de Patinação - Cinema 8D - Brinquedoteca | Ice Zone">
+  <meta property="og:site_name" content="Ice Zone">
+  <meta property="og:url" content="https://www.brinquedoemania.com.br">
+  <meta property="og:description" content="Conheça nossas pistas de gelo sintético, gelo natural, Cinema 8D e Brinquedoteca">
+  <meta property="og:type" content="business.business">
+  <meta property="og:image" content="assets/img/logo.png">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+  <link href="vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="assets/css/styles.css" rel="stylesheet">
+  <link href="assets/css/slider.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container-fluid" id="Slider">
+    <div class="row">
+      <div class="col-xl-12">
+        <div class="load"></div>
+        <div class="container-fluid nav-bg">
+          <header class="d-flex justify-content-center py-3">
+            <ul class="nav nav-pills nav-topper">
+              <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+              <li class="nav-item"><a href="a-empresa.html" class="nav-link">A Empresa</a></li>
+              <li class="nav-item"><a href="pista-natural.html" class="nav-link">Pista de Gelo Natural</a></li>
+              <li class="nav-item"><a href="pista-sintetica.html" class="nav-link">Pista de Gelo Sintético</a></li>
+              <li class="nav-item"><a href="cine-8d.html" class="nav-link">Cine Simulador 8D</a></li>
+              <li class="nav-item"><a href="fotos.html" class="nav-link">Fotos</a></li>
+              <li class="nav-item"><a href="contato.html" class="nav-link">Locação | Venda | Contato</a></li>
+            </ul>
+          </header>
+        </div>
+        
+        <header class="header">
+          <img src="assets/img/logo.png" alt="Ice Zone" width="15%">
+        </header>
+
+        <div class="canvasWrap">
+          <canvas id="canvas"></canvas>
+        </div>
+        <div class="images">
+          <img width="200" id="image1" src="assets/img/slider01.jpg" alt="Brinquedo e Mania">
+          <img width="200" id="image2" src="assets/img/slider02.jpg" alt="Brinquedo e Mania" class="active">
+          <img width="200" id="image3" src="assets/img/slider03.jpg" alt="Brinquedo e Mania">
+          <img width="200" id="image4" src="assets/img/slider04.jpg" alt="Brinquedo e Mania">
+        </div>
+        <!-- <div class="captions">
+          <div class="caption show">
+            <p class="count">12</p>
+            <div class="buttonWrap">
+              <a href="comprar.php" class="button">Comprar Ingressos</a>
+            </div>
+            <div class="titleWrap">
+              <p class="title">Teresina, Piauí</p>
+            </div>
+          </div>
+          <div class="caption">
+            <p class="count">16</p>
+            <div class="buttonWrap">
+              <a href="comprar.php" class="button">Comprar Ingressos</a>
+            </div>
+            <div class="titleWrap">
+              <p class="title">Rio Branco, Acre</p>
+            </div>
+          </div>
+          <div class="caption">
+            <p class="count">23</p>
+            <div class="buttonWrap">
+              <a href="comprar.php" class="button">Comprar Ingressos</a>
+            </div>
+            <div class="titleWrap">
+              <p class="title">Santos, São Paulo</p>
+            </div>
+          </div>
+          <div class="caption">
+            <p class="count">28</p>
+            <div class="buttonWrap">
+              <a href="comprar.php" class="button">Comprar Ingressos</a>
+            </div>
+            <div class="titleWrap">
+              <p class="title">Londrina, Paraná</p>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <div class="container" id="Blocos">
+    <div class="row">
+      <div class="col-xl-4 BlocosInternos">
+        <a href="https://www.facebook.com/brinquedoemania/" target="_blank" style="text-decoration:none">
+          <div id="BlocosInternos">
+            <i class="fa-solid fa-map-location-dot fa-3x"></i>
+            <h3>ONDE NÓS ESTAMOS?</h3>
+          </div>
+        </a>
+      </div>
+      <div class="col-xl-4 BlocosInternos">
+        <a href="comprar.html" style="text-decoration:none">
+          <div id="BlocosInternos">
+            <i class="fa-solid fa-ticket fa-3x"></i>
+            <h3>COMPRE SEU INGRESSO!</h3>
+          </div>
+        </a>
+      </div>
+      <div class="col-xl-4 BlocosInternos">
+        <a href="dicas-de-patinacao.html" style="text-decoration:none">
+          <div id="BlocosInternos">
+            <i class="fa-solid fa-person-skating fa-3x"></i>
+            <h3>DICAS DE PATINAÇÃO</h3>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="VideoApresentacao">
+    <div class="row">
+      <div class="col-xl-6">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/3HRym5gHCro" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="col-xl-6">
+        <h3>Adoramos montar pistas de gelo!</h3> <br>
+        <h5>Empresa há mais de 15 (quinze) anos no mercado de entretenimento e locação / aluguel de pistas de patinação no gelo.</h5> <br>
+        <h5>As crianças adoram e os adultos se divertem muito.</h5> <br>
+        <a href="a-empresa.html" class="btn btn-secondary">Sobre Nós</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid" id="Cotacao">
+    <div class="row">
+      <div class="col-xl-12">
+        <h3>Faça uma cotação conosco!</h3>
+        <h5>Preencha nosso formulário, e entre em contato.</h5>
+        <a href="contato.html" class="btn btn-primary">Solicite uma cotação</a>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="Formulario">
+    <div class="row" id="FormPrimeiro">
+      <div class="col-xl-12">
+        <h3>Vamos trabalhar juntos?</h3>
+        <h2>Entre em contato</h2>
+        <h4>Tem dúvidas? Queremos ouvir você!</h4>
+      </div>
+    </div>
+    <div class="row">
+      <form class="row g-3" method="post" action="#" id="mensagem">
+        <div class="col-md-4">
+          <label for="Nome" class="form-label">Nome Completo</label>
+          <input type="text" class="form-control" id="Nome" name="nome" placeholder="Seu nome completo">
+        </div>
+        <div class="col-md-4">
+          <label for="Email" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="Email" name="email" placeholder="Seu melhor e-mail">
+        </div>
+        <div class="col-md-4">
+          <label for="Telefone" class="form-label">Telefone</label>
+          <input type="text" class="form-control" id="Telefone" name="telefone" placeholder="Seu telefone, com DDD">
+        </div>
+        <div class="col-md-12">
+          <label for="Mensagem" class="form-label">Sua mensagem:</label>
+          <textarea class="form-control" id="Mensagem" name="mensagem" rows="5"></textarea>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-secondary">Enviar <i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <section id="Rodape">
+    <div class="container" id="Rodape">
+      <footer class="py-5">
+        <div class="row">
+          <div class="col-xl-3">
+            <h5>Navegação</h5> <br>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="/" class="nav-link-footer p-0">Home</a></li>
+              <li class="nav-item mb-2"><a href="a-empresa.html" class="nav-link-footer p-0">Empresa</a></li>
+              <li class="nav-item mb-2"><a href="pista-natural.html" class="nav-link-footer p-0">Pista de Gelo Natural</a></li>
+              <li class="nav-item mb-2"><a href="pista-sintetica.html" class="nav-link-footer p-0">Pista de Gelo Sintético</a></li>
+              <li class="nav-item mb-2"><a href="cine-8d.html" class="nav-link-footer p-0">Cine Simulador 8D</a></li>
+              <li class="nav-item mb-2"><a href="fotos.html" class="nav-link-footer p-0">Fotos</a></li>
+              <li class="nav-item mb-2"><a href="contato.html" class="nav-link-footer p-0">Locação e Venda/Contato</a></li>
+            </ul>
+          </div>
+          <div class="col-xl-3 offset-1">
+            <h5>Redes Sociais</h5> <br>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="https://facebook.com/icezonebrasil" target="_blank" class="nav-link-footer p-0">Facebook</a></li>
+              <li class="nav-item mb-2"><a href="https://instagram.com/icezonebrasil" target="_blank" class="nav-link-footer p-0">Instagram</a></li>
+              <li class="nav-item mb-2"><a href="https://www.youtube.com/channel/UCG-MZr78bbw2VdyqmnYDJlQ" target="_blank" class="nav-link-footer p-0">Youtube</a></li>
+            </ul>
+          </div>
+          <div class="col-xl-4 offset-1">
+            <form id="newsletter" action="#" method="post">
+              <h5>Inscreva-se em nossa newsletter</h5> <br>
+              <p>Conteúdos fresquinhos em seu e-mail</p>
+              <div class="d-flex w-100 gap-2">
+                <input id="email" name="email" type="email" class="form-control" placeholder="Seu e-mail">
+                <button class="btn btn-primary"><i class="fa fa-chevron-right"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+          <p>&copy; <script>
+              document.write(new Date().getFullYear())
+            </script> Ice Zone | Todos os Direitos Reservados. Desenvolvido por <a style="text-decoration:none; color: yellow;" href="https://rixxer.com.br/" target="_blank">Rixxer</a>
+          </p>
+          <ul class="list-unstyled d-flex">
+            <li class="ms-3"><a class="nav-link-footer p-0" href="https://facebook.com/icezonebrasil" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="ms-3"><a class="nav-link-footer p-0" href="https://instagram.com/icezonebrasil" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="ms-3"><a class="nav-link-footer p-0" href="https://www.youtube.com/channel/UCG-MZr78bbw2VdyqmnYDJlQ" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+
+  <a href="https://wa.me/5535998764147" style="position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+  z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <script type="text/javascript" src="vendor/bootstrap/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+  <script type="text/javascript" src="assets/js/slider.js"></script>
+  <script type="text/javascript" src="assets/js/script.js"></script>
+  
+</body>
+</html>

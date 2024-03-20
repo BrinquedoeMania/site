@@ -1,0 +1,163 @@
+/*
+/// -------------------------------------------------------------------------------------------------------
+/// :: Ice Zone - Developed by Agência Star | 10/01/2022 - 18:30.
+/// :: WARNING: This computer program is protected by copyright law and international treaties.
+/// :: Unauthorized duplication or distribution of this program, or any portion of it, may result
+/// :: in severe civil or criminal penalties, and will be prosecuted to the maximum extent possible
+/// :: under the law.
+/// ::
+/// :: v.1.0 - 10/01/2022 - Implementation.
+/// -------------------------------------------------------------------------------------------------------
+*/
+
+@import url(fonts.css);
+@import url(nav.css);
+
+body {
+    font-family: 'Montserrat-Regular', sans-serif;
+    overflow-x: hidden; /*Olhar isso depois*/
+}
+
+#Slider {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+    z-index: 99;
+}
+
+#Blocos {
+    text-align: center;
+    padding: 4rem;
+    margin-top: -8rem;
+}
+
+#BlocosInternos {
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #294973;
+    border: 5pt solid #F8F9F9;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5); 
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+#BlocosInternos i {
+    margin-bottom: 2rem;
+    color: #F8F9F9;
+}
+
+#BlocosInternos i:hover {
+    color: #FFF000;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#BlocosInternos h3 {
+    color: #F8F9F9;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+#BlocosInternos h3:hover {
+    color: #FFF000;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.BlocosInternos {
+    z-index: 9999;
+}
+
+#VideoApresentacao {
+    padding: 3rem;
+}
+
+#VideoApresentacao h3 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+#Cotacao {
+    padding: 5rem;
+    margin-top: 5rem;
+    background-color: #294973;
+    color: #F8F9F9;
+    text-align: center;
+}
+
+#Cotacao h3 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    color: #F8F9F9;
+}
+
+#Cotacao h5 {
+    font-family: 'Montserrat-Medium', sans-serif;
+    margin-bottom: 2rem;
+}
+
+#Formulario {
+    padding: 5rem !important;
+}
+
+#Formulario h3 {
+    color: #294973;
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+#Formulario h2 {
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+#Formulario h4 {
+    font-family: 'Montserrat-Regular', sans-serif;
+    color: #0D0D0D;
+}
+
+#FormPrimeiro {
+    text-align: center;
+}
+
+#Rodape {
+    padding: 2rem;
+    background-color: #294973;
+    color: #F8F9F9;
+}
+
+#Rodape h5 {
+    font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.logoTop img {
+width: 35% !important;
+}
+
+@media (max-width:768px) {
+
+    .logoTop img {
+        width: 100% !important;
+        }
+
+    .nav-topper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #Blocos {
+        padding: 2rem;
+    }
+
+    #VideoApresentacao iframe {
+        width: 100% !important;
+    }
+
+    #Rodape {
+        padding: 1rem;
+    }
+
+    #Rodape .col-xl-3, .col-xl-4 {
+        margin-bottom: 4rem !important;
+    }
+}
